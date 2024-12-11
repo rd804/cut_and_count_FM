@@ -2,7 +2,7 @@
 
 # create array from 0 to 179 in intervals of 32
 batch_size=16
-submit_arrays=($(seq 0 $batch_size 26))
+submit_arrays=($(seq 0 $batch_size 35))
 
 for i in ${submit_arrays[@]}; do
     start=$i

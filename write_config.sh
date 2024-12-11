@@ -3,11 +3,13 @@
 output_file="fm_cut_and_count_config.txt"
 
 
-n_sig=(0)
+n_sig=(0 1000)
 
-datasets=(herwig_extended1 herwig_extended2 herwig_extended3)
-blocks=(4 4 12)
+#datasets=(herwig_extended1 herwig_extended2 herwig_extended3)
+datasets=(extended2 extended3)
 
+blocks=(4 12)
+#blocks=(4 4 12)
 len=${#datasets[@]}
 #frequencies=(20 20 20)
 #epochs=(5000 5000 5000)

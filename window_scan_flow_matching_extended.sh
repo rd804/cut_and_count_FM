@@ -106,3 +106,5 @@ done
 
 wait
 
+exit
+
